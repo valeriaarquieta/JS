@@ -1,0 +1,12 @@
+let fila=["Sofia","David","Juan"];
+console.log("part 1");
+console.log(fila);
+fila.push("Sara");
+fila.push("Agustin");
+fila.shift();
+console.log("part 2");
+console.log(fila);
+fila.slice(1,0,"Renata");
+fila.push("Elena");
+console.log("part 3");
+console.log(fila);
